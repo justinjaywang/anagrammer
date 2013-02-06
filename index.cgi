@@ -43,7 +43,7 @@ def main():
     anagramHTMLString = '<p class="result">I am a weakish speller.</p>'
   else: # form input exists
     sourceTextLong = form['q'].value
-    sourceText = sourceTextLong.replace(' ', '')
+    sourceText = sourceTextLong.replace(' ','').replace('&','')
     if len(sourceText) < 7:
       anagramHTMLString = '<p class="result error">Input too short, try again.</p>'
     elif len(sourceText) > 30:
