@@ -14,7 +14,7 @@ body {
 }
 .container-fluid {
   margin: 0 auto;
-  max-width: 1280px;
+  /*max-width: 1280px;*/
   padding: 0 1em;
   *zoom: 1;
 }
@@ -84,8 +84,23 @@ input[type=text] {
     font-size: 54px;
   }
 }
-@media only screen and (min-width: 1121px) {
+@media only screen and (min-width: 1121px) and (max-width: 1280px) {
   body, .source, .result {
     font-size: 64px;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+  body, .source, .result {
+    font-size: 76px;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+  body, .source, .result {
+    font-size: 88px;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  body, .source, .result {
+    font-size: 100px;
   }
 }
