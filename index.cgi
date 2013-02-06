@@ -22,15 +22,6 @@ htmlHeader = """<!DOCTYPE html>
 
 htmlFooter = """  </div>
 </body>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script>
-  $(function() {
-    causeRepaintsOn = $(".source, .result");
-    $(window).resize(function() {
-      causeRepaintsOn.css("z-index", 1);
-    });
-  });
-</script>
 </html>"""
 
 # url
@@ -65,7 +56,7 @@ def main():
         anagramHTMLString = '<p class="result">' + anagramString + '</p>'
 
   # print input and anagram
-  print '<form action=""><input type="text" name="q" class="source" autofocus="autofocus" placeholder="' + sourceTextLong + '"></form>'
+  print '<form action=""><input type="text" name="q" class="source" autofocus="autofocus" placeholder="' + sourceTextLong + '" maxlength="36"></form>'
   print anagramHTMLString
 
   # print footer
