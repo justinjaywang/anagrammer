@@ -21,7 +21,7 @@ body {
 .container {
   margin: 0 auto;
   /*max-width: 1280px;*/
-  padding: 0 1em;
+  padding: 0 1em 0.75em;
   *zoom: 1;
   display: table-cell;
   vertical-align: middle;
