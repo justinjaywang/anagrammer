@@ -18,7 +18,7 @@ htmlHeader = """<!DOCTYPE html>
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <div class="container container-fluid">"""
+  <div class="container">"""
 
 htmlFooter = """  </div>
 </body>

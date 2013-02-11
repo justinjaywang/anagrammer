@@ -4,19 +4,29 @@ html {
   -ms-text-size-adjust: 100%;
 }
 * {
-  -webkit-transition: all 0.1s linear;
-  -moz-transition: all 0.1s linear;
-  transition: all 0.1s linear;
+  -webkit-transition: font-size 0.1s linear;
+  -moz-transition: font-size 0.1s linear;
+  transition: font-size 0.1s linear;
 }
 body {
-  margin: 3em 0 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
   background: #fff;
+  width: 100%;
+  height: 100%;
+  display: table;
 }
-.container-fluid {
+.container {
   margin: 0 auto;
   /*max-width: 1280px;*/
   padding: 0 1em;
   *zoom: 1;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
 }
 .source, .result {
   color: #333;
