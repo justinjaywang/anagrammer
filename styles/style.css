@@ -1,4 +1,7 @@
 html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   font-size: 16px;
 }
 @media only screen and (max-width: 480px) {
@@ -20,11 +23,6 @@ html {
   html {
     font-size: 13px;
   }
-}
-* {
-  -webkit-transition: font-size 0.1s linear;
-  -moz-transition: font-size 0.1s linear;
-  transition: font-size 0.1s linear;
 }
 body {
   margin: 0;
