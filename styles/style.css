@@ -38,7 +38,7 @@ body {
 }
 .container {
   margin: 0;
-  padding: 0 3rem 3rem;
+  padding: 0 3rem 4.5rem;
   *zoom: 1;
   display: table-cell;
   vertical-align: middle;
