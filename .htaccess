@@ -1,0 +1,12 @@
+RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} ^www.ocf.berkeley.edu$ [NC]
+#RewriteRule ^([^/]*)$ /~jjwang/anagrammer/index.cgi?source_text=$1 [L]
+#http://localhost/~Justin/anagrammer/index.cgi
+# /William+Shakespeare => /?source_text=William+Shakespeare
+#RewriteCond %{HTTP_HOST} ^localhost/~Justin/anagrammer$ [NC]
+#RewriteRule ^index\.cgi$ http://localhost/~Justin/anagrammer/$1 [R=301,L]
+#RewriteRule ^(.*)$ index.cgi?source_text=$1 [L]
+#RewriteRule ^([A-Za-z0-9\-\_]+)$ http://localhost/~Justin/anagrammer/?source_text=$1 [L]
+#RewriteRule ^([A-Za-z0-9\-\_]+)$ ?source_text=$1 [L]
+#RewriteRule ^?source_text=(.*)$  [L]
