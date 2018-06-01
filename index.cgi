@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 import cgitb, string, math, random, cgi, urllib
 cgitb.enable()
